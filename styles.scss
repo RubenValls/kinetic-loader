@@ -10,11 +10,24 @@ body{
         align-items: center;
         margin: auto;
 
-        .box{
+        #box1{
+            position: absolute;
             width: 0px;
             height: 0px;
-            border: 75px solid;
+            border: 50px solid;
             border-color: transparent transparent white transparent;
+            transform-origin: center;
+            transition: all 0.5s ease-in-out;
+        }
+
+        #box2{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border: 50px solid;
+            border-color: transparent transparent transparent white;
+            transform-origin: center;
+            transition: all 0.5s ease-in-out;
         }
     }
 }
