@@ -1,3 +1,20 @@
-
+body {
+  margin: 0;
+  display: flex;
+  background-color: #2C3E50;
+}
+body .loader-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body .loader-container .box {
+  width: 0px;
+  height: 0px;
+  border: 75px solid;
+  border-color: transparent transparent white transparent;
+}
 
 /*# sourceMappingURL=styles.css.map */
